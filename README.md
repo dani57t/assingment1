@@ -14,7 +14,7 @@ Alternatively pull this repo
 
 Website uses top style nav bar 
 
-![alt text](Assets/images/Screenshot.png)
+![alt text](assets/images/Screenshot.png)git 
 
 ## Credits
 
