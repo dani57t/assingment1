@@ -6,7 +6,7 @@ Code modification for bootcamp assignment to meet the accessibility criteria. Th
 
 ## Installation
 
-Link to [github pages](https://wwww.dani57t.github.io/assingment1/).
+Link to [github pages](https://dani57t.github.io/assingment1/).
 
 Alternatively pull this repo
 
@@ -14,7 +14,7 @@ Alternatively pull this repo
 
 Website uses top style nav bar 
 
-![alt text](assets/images/Screenshot.png)
+![alt text](Assets/images/Screenshot.png)
 
 ## Credits
 
