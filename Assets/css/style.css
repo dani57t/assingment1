@@ -1,0 +1,161 @@
+/* Style sheet for index.html*/
+
+
+body {
+    background-color: #d9dcd6; /* Set backgound colour*/
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set font style and colour for header, backgroundcolour and padding*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+header h1 {
+    display: inline-block; /* details for text diplay and font size in a header*/
+    font-size: 48px;
+}
+
+
+/* Changes colour of three letters in a word in a header*/
+header h1 .seo {
+    color: #d9dcd6; 
+}
+
+
+/* Set font, display, padding and margin style for navigation tabs*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+/* Removes default list style*/
+header nav ul {
+    list-style-type: none;
+}
+
+
+/* Set margins and navigation tabs horizontaly*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets links colour*/
+a {
+    color: #ffffff;         
+    text-decoration: none;
+}
+
+/* Sets paragraphs font size */
+p {
+    font-size: 16px;            
+}
+
+/* Sets hero image properties*/
+figure img {                    
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* Sets main sections width, display and margins*/
+#main-content {                 
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets background and font properties in 3 paragraphs under main-content*/
+.content {                      
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets main-content images height*/
+.content img {                  
+    max-height: 200px;
+}
+
+/* Sets font size and margin for every header in a paragrath under #main-content*/
+.content h2 {                   
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets display and margin properties for images #search-engine-optimazation and #social-media-marketing*/
+.float-left {                   
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sets display and margin properties for image #online-reputation-management*/
+.float-right {                  
+    float: right;
+    margin-left: 25px;
+}
+
+/* Services properties */
+#service {                      
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Sets margin and font colour for paragraphs under #benefit */
+.services {                    
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets margin and text align for headers in #benefit*/
+.services h3 {                  
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets display, width and margin for images in #benefit*/
+.services img {                 
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets properties for footer*/
+footer {                        
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Set font size for header in footer*/
+footer h4 {                     
+    font-size: 20px;
+}
